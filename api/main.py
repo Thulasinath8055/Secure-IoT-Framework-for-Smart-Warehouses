@@ -3,7 +3,7 @@ from fastapi import FastAPI, Depends
 from pydantic import BaseModel
 from backend.database import insert_sensor_data
 from backend.encryption import decrypt_data
-from backend.anomaly_detection import check_for_anomaly
+from backend.anamoly_detection import check_for_anomaly
 
 app = FastAPI()
 
